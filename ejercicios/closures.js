@@ -69,4 +69,6 @@ console.log(printColorGreen());
     console.log('The count is', counter.getCount()); 
     console.log('The count is', counter.getCount()); 
 
+    counter.count = 0; //no podriamos hacerlo ya que es una variable privada
+
 
